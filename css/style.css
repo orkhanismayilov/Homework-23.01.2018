@@ -4,6 +4,7 @@
 
 .field{
     display: block;
+    margin-bottom: 5px;
 }
 
 .input {
@@ -24,9 +25,10 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     outline: none;
+    cursor: pointer;
 }
 
-.add-a{
+.remove{
     height: 30px;
     width: 30px;
     margin-left: -1px;
@@ -34,5 +36,7 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     outline: none;
-    margin-top: 5px;
+    background: red;
+    color: white;
+    cursor: pointer;
 }
