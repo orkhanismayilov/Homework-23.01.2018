@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.field{
+    display: block;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+    outline: none;
+}
+
+.add {
+    height: 30px;
+    width: 30px;
+    margin-left: -5px;
+    border: 1px solid grey;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    outline: none;
+}
+
+.add-a{
+    height: 30px;
+    width: 30px;
+    margin-left: -1px;
+    border: 1px solid grey;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    outline: none;
+    margin-top: 5px;
+}
